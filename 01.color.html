@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+
+<div ng-app="" ng-init="textColor='red'; backgroundColor='white'">
+
+<p>Input color setting:</p>
+<p style="color:{{textColor}}">Text Color: <input type="text" ng-model="textColor"></p>
+<p style="background-color:{{backgroundColor}}">Background Color: <input type="text" ng-model="backgroundColor"></p>
+<p style="color:{{textColor}};background-color:{{backgroundColor}}">You wrote: text color is {{ textColor }}, background color is {{backgroundColor}}</p>
+
+</div>
+
+</body>
+</html>
